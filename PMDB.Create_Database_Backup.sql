@@ -22,7 +22,7 @@ BEGIN
 PRINT '====================================================================='
 PRINT 'set the name of the database...'
 PRINT '====================================================================='
-DECLARE @SourceDB VARCHAR(100)
+DECLARE @SourceDB VARCHAR(128)
 SET @SourceDB = @DatabaseName  --DB_NAME() 
 
 PRINT '====================================================================='
