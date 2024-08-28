@@ -14,7 +14,7 @@ GO
 
 CREATE PROCEDURE [admin].[Create_Database_Backup]
 (
-@DatabaseName VARCHAR(50)
+@DatabaseName VARCHAR(128)
 )
 AS 
 BEGIN
